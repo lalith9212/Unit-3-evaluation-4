@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color:skyblue;
+}
+#search_input{
+    height: 30px;
+    width: 500px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+#navbar>div>a{
+    margin-left: 40px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
